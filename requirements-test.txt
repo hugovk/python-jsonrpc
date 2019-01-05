@@ -1,2 +1,2 @@
-coverage<4
+coverage
 nose

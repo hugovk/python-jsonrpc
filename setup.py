@@ -35,6 +35,7 @@ setup(
     url = HOMEPAGE,
     download_url = DOWNLOAD_URL,
     packages = find_packages(),
+    python_requires="==2.7.*",
     classifiers = [
         #"Development Status :: 1 - Planning",
         # "Development Status :: 2 - Pre-Alpha",
@@ -47,6 +48,8 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 2 :: Only",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: System :: Networking",
         "Topic :: Internet :: WWW/HTTP",
